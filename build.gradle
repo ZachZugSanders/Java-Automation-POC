@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+}
+
+group 'stuffandthings'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 11
+targetCompatibility = 11
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.testng/testng
+    compile group: 'org.testng', name: 'testng', version: '7.1.0'
+    // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+}
+
+test{
+    useTestNG() {
+        useDefaultListeners = true
+    }
+
+    reports.html.enabled = true
+    testLogging.showStandardStreams = true
+    minHeapSize = "128m"
+    maxHeapSize = "512m"
+
+    testLogging {
+        def loggingEvents = ['started', 'passed', 'failed', 'skipped', 'standard_out']
+        events = loggingEvents
+    }
+    outputs.upToDateWhen { false }
+}
