@@ -4,7 +4,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class BrowserFactory {
     private static BrowserFactory instance = new BrowserFactory();
 
-
+    // for completion not used...
     private static String browserType = null;
 
     private ThreadLocal<WebDriver> threadLocal = new ThreadLocal<WebDriver>() {

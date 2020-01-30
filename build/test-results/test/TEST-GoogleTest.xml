@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="GoogleTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-24T00:45:08" hostname="Zach" time="0.072">
+<testsuite name="GoogleTest" tests="1" skipped="1" failures="0" errors="0" timestamp="2020-01-24T04:02:39" hostname="Zach" time="48.578">
   <properties/>
-  <testcase name="verifyGoogleSearchLogo" classname="GoogleTest" time="0.072"/>
+  <testcase name="inputSeachGoogle" classname="GoogleTest" time="48.578">
+    <skipped/>
+  </testcase>
   <system-out><![CDATA[test init...
 ]]></system-out>
-  <system-err><![CDATA[1579826703980	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CALAHA~1.000\\AppData\\Local\\Temp\\rust_mozprofilexbN3Ac"
-1579826704283	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
-1579826704372	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1579826704372	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1579826704372	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1579826704372	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+  <system-err><![CDATA[1579838555786	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\CALAHA~1.000\\AppData\\Local\\Temp\\rust_mozprofileXRCDiJ"
+1579838556061	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1579838556146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1579838556146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1579838556146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1579838556146	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
 JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1579826706738	Marionette	INFO	Listening on port 61028
-1579826707092	Marionette	WARN	TLS certificate errors will be ignored for this session
-Jan 23, 2020 7:45:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1579838558272	Marionette	INFO	Listening on port 54071
+1579838558399	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jan 23, 2020 11:02:38 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

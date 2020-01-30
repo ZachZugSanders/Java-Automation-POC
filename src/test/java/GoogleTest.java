@@ -15,7 +15,10 @@ public class GoogleTest extends BaseTest {
     }
 
     @Test
-    public void inputSeachGoogleForRandomString() {
-
+    public void inputSeachGoogle() {
+        SearchPage searchPage = PageFactory.initElements(
+                BrowserFactory.getInstance().getDriver(), SearchPage.class
+        );
+        searchPage.isInputBoxDisplayed("Qa Engineering Jobs");
     }
 }
